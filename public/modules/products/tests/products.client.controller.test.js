@@ -1,4 +1,4 @@
-'use strict';
+'use str'use strict';
 
 (function() {
 	// Products Controller Spec

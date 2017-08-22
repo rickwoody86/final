@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/trader-moes-dev',
+	db: 'mongodb://localhost/bottomsup',
 	app: {
-		title: 'trader moes - Development Environment'
+		title: 'Bottoms Up'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
