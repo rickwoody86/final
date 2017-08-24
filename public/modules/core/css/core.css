@@ -1,4 +1,5 @@
 .content {
+	
 	margin-top: 50px;
 }
 .undecorated-link:hover {
@@ -12,4 +13,20 @@
 }
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
+}
+
+h1, h2, li {
+	color: black;
+}
+
+.control-label {
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+.pic {
+	color: black;
 }

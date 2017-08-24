@@ -27,6 +27,13 @@ var ProductSchema = new Schema({
 		required: 'name cannot be blank',
 		validate: [validation.len(40), 'name must be 40 chars in length or less']
 	},
+	description: {
+		type: String,
+		default: '',
+		trim: true, 	
+		required: 'name cannot be blank',
+		validate: [validation.len(140), 'description must be 140 chars in length or less']
+	},
 	unitPrice: {
 		type: Number,
 		default: 0
@@ -44,6 +51,11 @@ var ProductSchema = new Schema({
 	discontinued: {
 		type: Boolean,
 		default: false
+	},
+	image: {
+		type: String,
+		default: 0,
+		min: 0
 	}
 });
 

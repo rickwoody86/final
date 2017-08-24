@@ -15,6 +15,9 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				
+
+				
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -29,13 +32,21 @@ module.exports = {
 			]
 		},
 		css: [
-			'public/modules/**/css/*.css'
+			'public/modules/**/css/*.css',
+			'public/assets/css/full-slider.css'
+			
+
+
+
 		],
 		js: [
 			'public/config.js',
 			'public/application.js',
 			'public/modules/*/*.js',
-			'public/modules/*/*[!tests]*/*.js'
+			'public/modules/*/*[!tests]*/*.js',
+			
+
+
 		],
 		tests: [
 			'public/lib/angular-mocks/angular-mocks.js',

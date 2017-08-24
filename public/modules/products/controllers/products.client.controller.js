@@ -19,6 +19,7 @@ angular.module('products').controller('ProductsController', ['$scope', '$statePa
 			var product = new Products ({
 				name: this.name,
 				category: this.category,
+				description: this.description,
 				quantityPerUnit: this.quantityPerUnit,
 				unitPrice: this.unitPrice,
 				unitsInStock: this.unitsInStock,

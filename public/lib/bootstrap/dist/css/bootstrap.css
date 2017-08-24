@@ -4,8 +4,22 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.footer{
+  text-align: center;
+}
+
+.lead{
+  color: black;
+}
+
+.copy{
+  text-align: center;
+  position: fixed;
+}
 #banner {
-  background-color: #7f6c4c;
+  background-image: url("taps.jpg");
+  background-size: 1200px 500px;
+  background-repeat: no-repeat;
 }
 
 html {

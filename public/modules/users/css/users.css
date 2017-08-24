@@ -1,3 +1,11 @@
+.form-group{
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
 @media (min-width: 992px) {
 	.nav-users {
 		position: fixed;
